@@ -1,23 +1,26 @@
 html{
-    font-size: 14;
-    margin: 0;
+    font-size: 20px;
+    margin: 0 auto;
+    max-width: 800px;
     padding: 0;
-    background-color: aquamarine;
+    background-color: #7fffd4;
+    color: #830094;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 p{
     font-family: 'Bree Serif', serif;
-
 }
 h1,h2{
     font-family: 'DM Serif Display', serif;
     font-kerning: none;
     font-size: 2rem;
+    text-transform: uppercase;
+    color: #B33600;
 }
 h1{
     font-size: 3rem;
 }
-table{
+/*table{
     width: 100%;
     background-color: rgb(164, 255, 225);
     border-collapse: collapse;
@@ -29,7 +32,37 @@ table{
 }
 table.td:nth-child(even) {
     background: #EBEBEB;
-}
+}*/
 figure{
+    margin: 10px 10px 10px 0;
+    float: left;
+}
+figcaption{
+    font-size: small;
+    margin: 0 auto;
+    max-width: fit-content;
+    padding: 2%;
+}
+.main-navigation{
+    list-style: none;
+    margin: 2%;
+    padding: 2%;
+}
+.main-navigation li{
+    display: inline-block;
+    padding: 2%;
+    border: 2%;
+    border-style: ridge;
+    min-width: 50px;
     text-align: center;
 }
+table {
+    border-collapse:collapse;
+}
+th {text-align:left;
+    padding:0.5rem;
+}
+td {
+    border-top:1px solid #eee;
+    padding: 0.5rem;
+} 
